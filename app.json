@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "HBPlus Portal",
+    "slug": "hbplus-portal",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "hbplusportal",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "fit.hbplus.portal"
+    },
+    "android": {
+      "package": "fit.hbplus.portal"
+    }
+  }
+}
